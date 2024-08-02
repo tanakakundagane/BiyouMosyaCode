@@ -1,0 +1,68 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  z-index: 0;
+  transform: translateX(160%); /* 初期位置を設定 */
+}
+
+.background1 {
+  background-image: url('/images/bgimage.png'); /* 1枚目の画像のパスを指定 */
+  animation: scrollBackground1 40s linear infinite;
+}
+
+.background2 {
+  background-image: url('/images/bgimage2.png'); 
+  /* 初期位置とアニメーションはJavaScriptで設定 */
+}
+
+.background3 {
+  background-image: url('/images/bgimage3.png'); 
+  /* 初期位置とアニメーションはJavaScriptで設定 */
+}
+
+.background4 {
+  background-image: url('/images/bgimage4.png'); 
+  /* 初期位置とアニメーションはJavaScriptで設定 */
+}
+
+@keyframes scrollBackground1 {
+  0% {
+    transform: translateX(140%); /* 1枚目の画像の開始位置 */
+  }
+  100% {
+    transform: translateX(-160%);
+  }
+}
+
+@keyframes scrollBackground2 {
+  0% {
+    transform: translateX(140%); /* 2枚目の画像の開始位置 */
+  }
+  100% {
+    transform: translateX(-160%);
+  }
+}
+
+@keyframes scrollBackground3 {
+  0% {
+    transform: translateX(140%); /* 3枚目の画像の開始位置 */
+  }
+  100% {
+    transform: translateX(-160%);
+  }
+}
+
+@keyframes scrollBackground4 {
+  0% {
+    transform: translateX(140%); /* 3枚目の画像の開始位置 */
+  }
+  100% {
+    transform: translateX(-160%);
+  }
+}
