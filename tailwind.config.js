@@ -20,7 +20,22 @@ module.exports = {
       },
       fontFamily: {
         title:["Noto Serif", "sans-serif"],
-      }
+      },
+      transitionDuration: {
+        '3000': '3000ms',
+        '5000': '5000ms',
+        '7000': '7000ms',
+        '9000': '9000ms',
+      },
+      animation: {
+        'scale-in': 'scaleIn 10s ease-in-out forwards',
+      },
+      keyframes: {
+        scaleIn: {
+          '0%': { transform: 'scale(1)' },
+          '100%': { transform: 'scale(1.1)' },
+        },
+      },
     },
   },
   plugins: [],

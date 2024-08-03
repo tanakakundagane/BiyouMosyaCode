@@ -25,7 +25,7 @@ const EyeBeauty = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis laudantium obcaecati corporis necessitatibus aut, quibusdam ducimus tenetur sint harum ad dolores repellat illo! Rerum adipisci tempore deleniti, qui laudantium debitis.</p>
       </div>
       <Link href="/next-page" passHref>
-        <div className='p-2 mt-10 flex flex-col md:flex-row border  rounded-full w-60 mx-auto'>
+        <div className='p-2 mt-10 flex flex-col md:flex-row border  rounded-full w-60 mx-auto hover:bg-slate-400 duration-300'>
           <div className='flex-1 taxt-center'>
             <p>View more</p>
           </div>

@@ -5,6 +5,7 @@
   width: 90%;
   height: 100%;
   background-size: cover;
+  background-size: 80%; /* 画像を縮小 */
   background-repeat: no-repeat;
   border-radius: 20px;
   z-index: 0;
@@ -33,7 +34,7 @@
 
 @keyframes scrollBackground1 {
   0% {
-    transform: translateX(140%); /* 1枚目の画像の開始位置 */
+    transform: translateX(120%); /* 1枚目の画像の開始位置 */
   }
   100% {
     transform: translateX(-160%);
@@ -42,7 +43,7 @@
 
 @keyframes scrollBackground2 {
   0% {
-    transform: translateX(140%); /* 2枚目の画像の開始位置 */
+    transform: translateX(120%); /* 2枚目の画像の開始位置 */
   }
   100% {
     transform: translateX(-160%);
@@ -51,7 +52,7 @@
 
 @keyframes scrollBackground3 {
   0% {
-    transform: translateX(140%); /* 3枚目の画像の開始位置 */
+    transform: translateX(120%); /* 3枚目の画像の開始位置 */
   }
   100% {
     transform: translateX(-160%);
@@ -60,7 +61,7 @@
 
 @keyframes scrollBackground4 {
   0% {
-    transform: translateX(140%); /* 3枚目の画像の開始位置 */
+    transform: translateX(120%); /* 3枚目の画像の開始位置 */
   }
   100% {
     transform: translateX(-160%);
