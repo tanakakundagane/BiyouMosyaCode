@@ -3,6 +3,7 @@ import AboutUs from './components/AboutUs';
 import EyeBeauty from './components/EyeBeauty';
 import ImageSlider from './components/ImageSlider';
 import Nail from './components/Nail';
+import News from './components/News';
 import ParallaxComponent from './components/ParallaxComponent';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <Nail/>
       </div>
       <ImageSlider/>
+      <News/>
       <div className='pt-96'></div>
       <div className='pt-96'></div>
     </div>
