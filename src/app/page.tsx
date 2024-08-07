@@ -1,6 +1,7 @@
 // src/app/page.tsx
 import AboutUs from './components/AboutUs';
 import EyeBeauty from './components/EyeBeauty';
+import FooterImage from './components/FooterImage';
 import ImageSlider from './components/ImageSlider';
 import Nail from './components/Nail';
 import News from './components/News';
@@ -17,6 +18,7 @@ const Home = () => {
       </div>
       <ImageSlider/>
       <News/>
+      <FooterImage/>
       <div className='pt-96'></div>
       <div className='pt-96'></div>
     </div>

@@ -21,7 +21,7 @@ const Header = () => {
         <div className=' h-full max-w-screen-2xl mx-auto flex items-center justify-between'>
           {/* {logo} */}
           <Link href='/' className='relative group overflow-hidden'>
-            <p className='text-2xl font-bold'>ORIGIN.Doc</p>
+            <p className='text-2xl font-bold'>Sample.Doc</p>
             <span className='absolute bottom-0 w-full h-[2px] inline-block bg-black -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700'></span>
           </Link>
 
@@ -75,7 +75,7 @@ const Header = () => {
                 <Link href={'/'}>
                   <p className='text-2xl font-bold text-white mb-4'
                   onClick={() => setShowMenu(false)}>
-                    ORIGIN.Doc
+                    Sample.Doc
                   </p>
                 </Link>
                 <ul className='flex flex-col text-gray-300 text-sm gap-3 font-semibold'>
